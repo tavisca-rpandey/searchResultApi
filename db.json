@@ -1,0 +1,1122 @@
+{
+    "currency": "USD",
+    "airlines": [
+        {
+            "code": "TK",
+            "name": "Turkish Airlines",
+            "logoUrl": "https://qa-images.orxenterprise.com/images/Airlines/30x30/TK.jpg"
+        },
+        {
+            "code": "VS",
+            "name": "Virgin Atlantic",
+            "logoUrl": "https://qa-images.orxenterprise.com/images/Airlines/30x30/VS.jpg"
+        },
+        {
+            "code": "DL",
+            "name": "Delta Air Lines",
+            "logoUrl": "https://qa-images.orxenterprise.com/images/Airlines/30x30/DL.jpg"
+        },
+        {
+            "code": "BA",
+            "name": "British Airways",
+            "logoUrl": "https://qa-images.orxenterprise.com/images/Airlines/30x30/BA.jpg"
+        },
+        {
+            "code": "AA",
+            "name": "American Airlines",
+            "logoUrl": "https://qa-images.orxenterprise.com/images/Airlines/30x30/AA.jpg"
+        },
+        {
+            "code": "QR",
+            "name": "Qatar Airways",
+            "logoUrl": "https://qa-images.orxenterprise.com/images/Airlines/30x30/QR.jpg"
+        },
+        {
+            "code": "GF",
+            "name": "Gulf Air",
+            "logoUrl": "https://qa-images.orxenterprise.com/images/Airlines/30x30/GF.jpg"
+        }
+    ],
+    "airports": [
+        {
+            "code": "IST",
+            "name": "Ataturk Airport",
+            "city": {
+                "code": "IST",
+                "name": "Istanbul",
+                "stateCode": "NULL",
+                "countryCode": "TR"
+            }
+        },
+        {
+            "code": "BOM",
+            "name": "Chhatrapati Shivaji International Airport",
+            "city": {
+                "code": "BOM",
+                "name": "Mumbai",
+                "stateCode": "NULL",
+                "countryCode": "IN"
+            }
+        },
+        {
+            "code": "LAX",
+            "name": "Los Angeles International  Airport",
+            "city": {
+                "code": "LAX",
+                "name": "Los Angeles",
+                "stateCode": "CA",
+                "countryCode": "US"
+            }
+        },
+        {
+            "code": "LHR",
+            "name": "London Heathrow  Airport",
+            "city": {
+                "code": "LON",
+                "name": "London",
+                "stateCode": "NULL",
+                "countryCode": "GB"
+            }
+        },
+        {
+            "code": "JFK",
+            "name": "New York J F Kennedy International  Airport",
+            "city": {
+                "code": "NYC",
+                "name": "New York",
+                "stateCode": "NY",
+                "countryCode": "US"
+            }
+        },
+        {
+            "code": "ORD",
+            "name": "Chicago O'Hare International  Airport",
+            "city": {
+                "code": "CHI",
+                "name": "Chicago",
+                "stateCode": "IL",
+                "countryCode": "US"
+            }
+        },
+        {
+            "code": "PHX",
+            "name": "Sky Harbor International  Airport",
+            "city": {
+                "code": "PHX",
+                "name": "Phoenix",
+                "stateCode": "AZ",
+                "countryCode": "US"
+            }
+        },
+        {
+            "code": "DFW",
+            "name": "Dallas/Fort Worth International  Airport",
+            "city": {
+                "code": "DFW",
+                "name": "Dallas",
+                "stateCode": "TX",
+                "countryCode": "US"
+            }
+        },
+        {
+            "code": "DOH",
+            "name": "Hamad International Airport",
+            "city": {
+                "code": "DOH",
+                "name": "Doha",
+                "stateCode": "NULL",
+                "countryCode": "QA"
+            }
+        },
+        {
+            "code": "BAH",
+            "name": "Bahrain International Airport",
+            "city": {
+                "code": "BAH",
+                "name": "Bahrain",
+                "stateCode": "NULL",
+                "countryCode": "BH"
+            }
+        }
+    ],
+    "itineraries": [
+        {
+            "refId": 0,
+            "journeys": [
+                {
+                    "flightRefIds": [
+                        10000,
+                        10001
+                    ],
+                    "durationMins": 1405
+                }
+            ],
+            "fareOptions": [
+                {
+                    "refId": "ZmI1YzZjZTYtZDRhNi00ODgyLWJiM2EtZjA5YTQ2MTU1Njk4JE1UQXVNUzR4TG5SeVlYWmxiSEJ2Y25RdU16Sm1iRGN5TnpVemFUZ3VNbVF6TXpJeU9URXRZamM0TXkwME9UY3dMV0k0WkdFdE9UTXlNbVEyWm1Jd1pHVXhMakE9",
+                    "segments": [
+                        {
+                            "flightRefId": 10000,
+                            "cabinType": "Economy",
+                            "optionalData": {
+                                "availableSeats": 9,
+                                "seatMapAvailable": true
+                            }
+                        },
+                        {
+                            "flightRefId": 10001,
+                            "cabinType": "Economy",
+                            "optionalData": {
+                                "availableSeats": 9,
+                                "seatMapAvailable": true
+                            }
+                        }
+                    ],
+                    "isComboFare": false,
+                    "platingCarrier": "TK",
+                    "totalFare": 2254.08,
+                    "isLowestBrand": false,
+                    "passengerDetail": {
+                        "passengerCount": 4,
+                        "perPassengerTotalFare": 563.52
+                    }
+                }
+            ]
+        },
+        {
+            "refId": 1,
+            "journeys": [
+                {
+                    "flightRefIds": [
+                        10000,
+                        10002
+                    ],
+                    "durationMins": 2605
+                }
+            ],
+            "fareOptions": [
+                {
+                    "refId": "ZmI1YzZjZTYtZDRhNi00ODgyLWJiM2EtZjA5YTQ2MTU1Njk4JE1URXVNaTR4TG5SeVlYWmxiSEJ2Y25RdU16Sm1iRGN5TnpVemFUZ3VNbVF6TXpJeU9URXRZamM0TXkwME9UY3dMV0k0WkdFdE9UTXlNbVEyWm1Jd1pHVXhMakE9",
+                    "segments": [
+                        {
+                            "flightRefId": 10000,
+                            "cabinType": "Economy",
+                            "optionalData": {
+                                "availableSeats": 9,
+                                "seatMapAvailable": true
+                            }
+                        },
+                        {
+                            "flightRefId": 10002,
+                            "cabinType": "Economy",
+                            "optionalData": {
+                                "availableSeats": 9,
+                                "seatMapAvailable": true
+                            }
+                        }
+                    ],
+                    "isComboFare": false,
+                    "platingCarrier": "TK",
+                    "totalFare": 2254.08,
+                    "isLowestBrand": false,
+                    "passengerDetail": {
+                        "passengerCount": 4,
+                        "perPassengerTotalFare": 563.52
+                    }
+                }
+            ]
+        },
+        {
+            "refId": 2,
+            "journeys": [
+                {
+                    "flightRefIds": [
+                        10003,
+                        10004
+                    ],
+                    "durationMins": 2220
+                }
+            ],
+            "fareOptions": [
+                {
+                    "refId": "ZmI1YzZjZTYtZDRhNi00ODgyLWJiM2EtZjA5YTQ2MTU1Njk4JE1USXVNeTR4TG5SeVlYWmxiSEJ2Y25RdU16Sm1iRGN5TnpVemFUZ3VNbVF6TXpJeU9URXRZamM0TXkwME9UY3dMV0k0WkdFdE9UTXlNbVEyWm1Jd1pHVXhMakE9",
+                    "segments": [
+                        {
+                            "flightRefId": 10003,
+                            "cabinType": "Economy",
+                            "optionalData": {
+                                "availableSeats": 9,
+                                "seatMapAvailable": true
+                            }
+                        },
+                        {
+                            "flightRefId": 10004,
+                            "cabinType": "Economy",
+                            "optionalData": {
+                                "availableSeats": 9,
+                                "seatMapAvailable": true
+                            }
+                        }
+                    ],
+                    "isComboFare": false,
+                    "platingCarrier": "VS",
+                    "totalFare": 2510.70,
+                    "isLowestBrand": false,
+                    "passengerDetail": {
+                        "passengerCount": 4,
+                        "perPassengerTotalFare": 627.68
+                    }
+                }
+            ]
+        },
+        {
+            "refId": 3,
+            "journeys": [
+                {
+                    "flightRefIds": [
+                        10003,
+                        10005,
+                        10006
+                    ],
+                    "durationMins": 2443
+                }
+            ],
+            "fareOptions": [
+                {
+                    "refId": "ZmI1YzZjZTYtZDRhNi00ODgyLWJiM2EtZjA5YTQ2MTU1Njk4JE1UTXVOQzR4TG5SeVlYWmxiSEJ2Y25RdU16Sm1iRGN5TnpVemFUZ3VNbVF6TXpJeU9URXRZamM0TXkwME9UY3dMV0k0WkdFdE9UTXlNbVEyWm1Jd1pHVXhMakE9",
+                    "segments": [
+                        {
+                            "flightRefId": 10003,
+                            "cabinType": "Economy",
+                            "optionalData": {
+                                "availableSeats": 9,
+                                "seatMapAvailable": true
+                            }
+                        },
+                        {
+                            "flightRefId": 10005,
+                            "cabinType": "Economy",
+                            "optionalData": {
+                                "availableSeats": 9,
+                                "seatMapAvailable": true
+                            }
+                        },
+                        {
+                            "flightRefId": 10006,
+                            "cabinType": "Economy",
+                            "optionalData": {
+                                "availableSeats": 9,
+                                "seatMapAvailable": true
+                            }
+                        }
+                    ],
+                    "isComboFare": false,
+                    "platingCarrier": "VS",
+                    "totalFare": 2551.38,
+                    "isLowestBrand": false,
+                    "passengerDetail": {
+                        "passengerCount": 4,
+                        "perPassengerTotalFare": 637.84
+                    }
+                }
+            ]
+        },
+        {
+            "refId": 4,
+            "journeys": [
+                {
+                    "flightRefIds": [
+                        10007,
+                        10008,
+                        10009
+                    ],
+                    "durationMins": 1716
+                }
+            ],
+            "fareOptions": [
+                {
+                    "refId": "ZmI1YzZjZTYtZDRhNi00ODgyLWJiM2EtZjA5YTQ2MTU1Njk4JE1UUXVOUzR4TG5SeVlYWmxiSEJ2Y25RdU16Sm1iRGN5TnpVemFUZ3VNbVF6TXpJeU9URXRZamM0TXkwME9UY3dMV0k0WkdFdE9UTXlNbVEyWm1Jd1pHVXhMakE9",
+                    "segments": [
+                        {
+                            "flightRefId": 10007,
+                            "cabinType": "Economy",
+                            "optionalData": {
+                                "availableSeats": 9,
+                                "seatMapAvailable": true
+                            }
+                        },
+                        {
+                            "flightRefId": 10008,
+                            "cabinType": "Economy",
+                            "optionalData": {
+                                "availableSeats": 7,
+                                "seatMapAvailable": false
+                            }
+                        },
+                        {
+                            "flightRefId": 10009,
+                            "cabinType": "Economy",
+                            "optionalData": {
+                                "availableSeats": 7,
+                                "seatMapAvailable": false
+                            }
+                        }
+                    ],
+                    "isComboFare": false,
+                    "platingCarrier": "BA",
+                    "totalFare": 2710.11,
+                    "isLowestBrand": false,
+                    "passengerDetail": {
+                        "passengerCount": 4,
+                        "perPassengerTotalFare": 677.53
+                    }
+                }
+            ]
+        },
+        {
+            "refId": 5,
+            "journeys": [
+                {
+                    "flightRefIds": [
+                        10010,
+                        10011,
+                        10012
+                    ],
+                    "durationMins": 1746
+                }
+            ],
+            "fareOptions": [
+                {
+                    "refId": "ZmI1YzZjZTYtZDRhNi00ODgyLWJiM2EtZjA5YTQ2MTU1Njk4JE1UVXVOaTR4TG5SeVlYWmxiSEJ2Y25RdU16Sm1iRGN5TnpVemFUZ3VNbVF6TXpJeU9URXRZamM0TXkwME9UY3dMV0k0WkdFdE9UTXlNbVEyWm1Jd1pHVXhMakE9",
+                    "segments": [
+                        {
+                            "flightRefId": 10010,
+                            "cabinType": "Economy",
+                            "optionalData": {
+                                "availableSeats": 9,
+                                "seatMapAvailable": true
+                            }
+                        },
+                        {
+                            "flightRefId": 10011,
+                            "cabinType": "Economy",
+                            "optionalData": {
+                                "availableSeats": 7,
+                                "seatMapAvailable": false
+                            }
+                        },
+                        {
+                            "flightRefId": 10012,
+                            "cabinType": "Economy",
+                            "optionalData": {
+                                "availableSeats": 7,
+                                "seatMapAvailable": false
+                            }
+                        }
+                    ],
+                    "isComboFare": false,
+                    "platingCarrier": "BA",
+                    "totalFare": 2710.11,
+                    "isLowestBrand": false,
+                    "passengerDetail": {
+                        "passengerCount": 4,
+                        "perPassengerTotalFare": 677.53
+                    }
+                }
+            ]
+        },
+        {
+            "refId": 7,
+            "journeys": [
+                {
+                    "flightRefIds": [
+                        10007,
+                        10015,
+                        10016
+                    ],
+                    "durationMins": 1593
+                }
+            ],
+            "fareOptions": [
+                {
+                    "refId": "ZmI1YzZjZTYtZDRhNi00ODgyLWJiM2EtZjA5YTQ2MTU1Njk4JE1UY3VPQzR4TG5SeVlYWmxiSEJ2Y25RdU16Sm1iRGN5TnpVemFUZ3VNbVF6TXpJeU9URXRZamM0TXkwME9UY3dMV0k0WkdFdE9UTXlNbVEyWm1Jd1pHVXhMakE9",
+                    "segments": [
+                        {
+                            "flightRefId": 10007,
+                            "cabinType": "Economy",
+                            "optionalData": {
+                                "availableSeats": 9,
+                                "seatMapAvailable": true
+                            }
+                        },
+                        {
+                            "flightRefId": 10015,
+                            "cabinType": "Economy",
+                            "optionalData": {
+                                "availableSeats": 7,
+                                "seatMapAvailable": false
+                            }
+                        },
+                        {
+                            "flightRefId": 10016,
+                            "cabinType": "Economy",
+                            "optionalData": {
+                                "availableSeats": 7,
+                                "seatMapAvailable": false
+                            }
+                        }
+                    ],
+                    "isComboFare": false,
+                    "platingCarrier": "BA",
+                    "totalFare": 2718.48,
+                    "isLowestBrand": false,
+                    "passengerDetail": {
+                        "passengerCount": 4,
+                        "perPassengerTotalFare": 679.62
+                    }
+                }
+            ]
+        },
+        {
+            "refId": 6,
+            "journeys": [
+                {
+                    "flightRefIds": [
+                        10010,
+                        10013,
+                        10014
+                    ],
+                    "durationMins": 1682
+                }
+            ],
+            "fareOptions": [
+                {
+                    "refId": "ZmI1YzZjZTYtZDRhNi00ODgyLWJiM2EtZjA5YTQ2MTU1Njk4JE1UWXVOeTR4TG5SeVlYWmxiSEJ2Y25RdU16Sm1iRGN5TnpVemFUZ3VNbVF6TXpJeU9URXRZamM0TXkwME9UY3dMV0k0WkdFdE9UTXlNbVEyWm1Jd1pHVXhMakE9",
+                    "segments": [
+                        {
+                            "flightRefId": 10010,
+                            "cabinType": "Economy",
+                            "optionalData": {
+                                "availableSeats": 9,
+                                "seatMapAvailable": true
+                            }
+                        },
+                        {
+                            "flightRefId": 10013,
+                            "cabinType": "Economy",
+                            "optionalData": {
+                                "availableSeats": 9,
+                                "seatMapAvailable": true
+                            }
+                        },
+                        {
+                            "flightRefId": 10014,
+                            "cabinType": "Economy",
+                            "optionalData": {
+                                "availableSeats": 7,
+                                "seatMapAvailable": false
+                            }
+                        }
+                    ],
+                    "isComboFare": false,
+                    "platingCarrier": "BA",
+                    "totalFare": 2718.48,
+                    "isLowestBrand": false,
+                    "passengerDetail": {
+                        "passengerCount": 4,
+                        "perPassengerTotalFare": 679.62
+                    }
+                }
+            ]
+        },
+        {
+            "refId": 8,
+            "journeys": [
+                {
+                    "flightRefIds": [
+                        10017,
+                        10018
+                    ],
+                    "durationMins": 1360
+                }
+            ],
+            "fareOptions": [
+                {
+                    "refId": "ZmI1YzZjZTYtZDRhNi00ODgyLWJiM2EtZjA5YTQ2MTU1Njk4JE1UZ3VPUzR4TG5SeVlYWmxiSEJ2Y25RdU16Sm1iRGN5TnpVemFUZ3VNbVF6TXpJeU9URXRZamM0TXkwME9UY3dMV0k0WkdFdE9UTXlNbVEyWm1Jd1pHVXhMakE9",
+                    "segments": [
+                        {
+                            "flightRefId": 10017,
+                            "cabinType": "Economy",
+                            "optionalData": {
+                                "availableSeats": 9,
+                                "seatMapAvailable": false
+                            }
+                        },
+                        {
+                            "flightRefId": 10018,
+                            "cabinType": "Economy",
+                            "optionalData": {
+                                "availableSeats": 9,
+                                "seatMapAvailable": false
+                            }
+                        }
+                    ],
+                    "isComboFare": false,
+                    "platingCarrier": "QR",
+                    "totalFare": 2724.03,
+                    "isLowestBrand": false,
+                    "passengerDetail": {
+                        "passengerCount": 4,
+                        "perPassengerTotalFare": 681.01
+                    }
+                }
+            ]
+        },
+        {
+            "refId": 9,
+            "journeys": [
+                {
+                    "flightRefIds": [
+                        10019,
+                        10020,
+                        10021
+                    ],
+                    "durationMins": 1860
+                }
+            ],
+            "fareOptions": [
+                {
+                    "refId": "ZmI1YzZjZTYtZDRhNi00ODgyLWJiM2EtZjA5YTQ2MTU1Njk4JE1Ua3VNVEF1TVM1MGNtRjJaV3h3YjNKMExqTXlabXczTWpjMU0yazRMakprTXpNeU1qa3hMV0kzT0RNdE5EazNNQzFpT0dSaExUa3pNakprTm1aaU1HUmxNUzR3",
+                    "segments": [
+                        {
+                            "flightRefId": 10019,
+                            "cabinType": "Economy",
+                            "optionalData": {
+                                "availableSeats": 7,
+                                "seatMapAvailable": true
+                            }
+                        },
+                        {
+                            "flightRefId": 10020,
+                            "cabinType": "Economy",
+                            "optionalData": {
+                                "availableSeats": 7,
+                                "seatMapAvailable": true
+                            }
+                        },
+                        {
+                            "flightRefId": 10021,
+                            "cabinType": "Economy",
+                            "optionalData": {
+                                "availableSeats": 7,
+                                "seatMapAvailable": false
+                            }
+                        }
+                    ],
+                    "isComboFare": false,
+                    "platingCarrier": "GF",
+                    "totalFare": 2746.47,
+                    "isLowestBrand": false,
+                    "passengerDetail": {
+                        "passengerCount": 4,
+                        "perPassengerTotalFare": 686.62
+                    }
+                }
+            ]
+        }
+    ],
+    "flights": [
+        {
+            "refId": 10000,
+            "flightNumber": "721",
+            "durationMins": 430,
+            "marketingCarrier": "TK",
+            "operatingCarrier": "TK",
+            "departure": {
+                "airportCode": "BOM",
+                "dateTime": "2020-11-21T06:50"
+            },
+            "arrival": {
+                "airportCode": "IST",
+                "dateTime": "2020-11-21T11:30"
+            },
+            "isArrivalOnNextDay": false,
+            "isDepartureAirportDifferent": false,
+            "numberOfStops": 0,
+            "optionalData": {
+                "aircraftName": "Boeing 777-300ER",
+                "stops": []
+            }
+        },
+        {
+            "refId": 10001,
+            "flightNumber": "9",
+            "durationMins": 835,
+            "marketingCarrier": "TK",
+            "operatingCarrier": "TK",
+            "departure": {
+                "airportCode": "IST",
+                "dateTime": "2020-11-21T13:50"
+            },
+            "arrival": {
+                "airportCode": "LAX",
+                "dateTime": "2020-11-21T16:45"
+            },
+            "isArrivalOnNextDay": false,
+            "isDepartureAirportDifferent": false,
+            "numberOfStops": 0,
+            "optionalData": {
+                "aircraftName": "Boeing 777-300ER",
+                "stops": []
+            }
+        },
+        {
+            "refId": 10002,
+            "flightNumber": "179",
+            "durationMins": 825,
+            "marketingCarrier": "TK",
+            "operatingCarrier": "TK",
+            "departure": {
+                "airportCode": "IST",
+                "dateTime": "2020-11-22T10:00"
+            },
+            "arrival": {
+                "airportCode": "LAX",
+                "dateTime": "2020-11-22T12:45"
+            },
+            "isArrivalOnNextDay": false,
+            "isDepartureAirportDifferent": false,
+            "numberOfStops": 0,
+            "optionalData": {
+                "aircraftName": "Boeing 787-9 Dreamliner",
+                "stops": []
+            }
+        },
+        {
+            "refId": 10003,
+            "flightNumber": "355",
+            "durationMins": 610,
+            "marketingCarrier": "VS",
+            "operatingCarrier": "VS",
+            "departure": {
+                "airportCode": "BOM",
+                "dateTime": "2020-11-21T14:00"
+            },
+            "arrival": {
+                "airportCode": "LHR",
+                "dateTime": "2020-11-21T18:40"
+            },
+            "isArrivalOnNextDay": false,
+            "isDepartureAirportDifferent": false,
+            "numberOfStops": 0,
+            "optionalData": {
+                "aircraftName": "Airbus A330-300",
+                "stops": []
+            }
+        },
+        {
+            "refId": 10004,
+            "flightNumber": "7",
+            "durationMins": 675,
+            "marketingCarrier": "VS",
+            "operatingCarrier": "VS",
+            "departure": {
+                "airportCode": "LHR",
+                "dateTime": "2020-11-22T10:15"
+            },
+            "arrival": {
+                "airportCode": "LAX",
+                "dateTime": "2020-11-22T13:30"
+            },
+            "isArrivalOnNextDay": false,
+            "isDepartureAirportDifferent": false,
+            "numberOfStops": 0,
+            "optionalData": {
+                "aircraftName": "Airbus A350-1000",
+                "stops": []
+            }
+        },
+        {
+            "refId": 10005,
+            "flightNumber": "3",
+            "durationMins": 480,
+            "marketingCarrier": "VS",
+            "operatingCarrier": "VS",
+            "departure": {
+                "airportCode": "LHR",
+                "dateTime": "2020-11-22T08:55"
+            },
+            "arrival": {
+                "airportCode": "JFK",
+                "dateTime": "2020-11-22T11:55"
+            },
+            "isArrivalOnNextDay": false,
+            "isDepartureAirportDifferent": false,
+            "numberOfStops": 0,
+            "optionalData": {
+                "aircraftName": "Airbus A330-300",
+                "stops": []
+            }
+        },
+        {
+            "refId": 10006,
+            "flightNumber": "1353",
+            "durationMins": 383,
+            "marketingCarrier": "DL",
+            "operatingCarrier": "DL",
+            "departure": {
+                "airportCode": "JFK",
+                "dateTime": "2020-11-22T13:50"
+            },
+            "arrival": {
+                "airportCode": "LAX",
+                "dateTime": "2020-11-22T17:13"
+            },
+            "isArrivalOnNextDay": false,
+            "isDepartureAirportDifferent": false,
+            "numberOfStops": 0,
+            "optionalData": {
+                "aircraftName": "Boeing 767-300 (winglets) Passenger",
+                "stops": []
+            }
+        },
+        {
+            "refId": 10007,
+            "flightNumber": "138",
+            "durationMins": 610,
+            "marketingCarrier": "BA",
+            "operatingCarrier": "BA",
+            "departure": {
+                "airportCode": "BOM",
+                "dateTime": "2020-11-21T02:15"
+            },
+            "arrival": {
+                "airportCode": "LHR",
+                "dateTime": "2020-11-21T06:55"
+            },
+            "isArrivalOnNextDay": false,
+            "isDepartureAirportDifferent": false,
+            "numberOfStops": 0,
+            "optionalData": {
+                "aircraftName": "Boeing 777-200/200ER Passenger",
+                "stops": []
+            }
+        },
+        {
+            "refId": 10008,
+            "flightNumber": "1542",
+            "durationMins": 535,
+            "marketingCarrier": "BA",
+            "operatingCarrier": "AA",
+            "departure": {
+                "airportCode": "LHR",
+                "dateTime": "2020-11-21T08:40"
+            },
+            "arrival": {
+                "airportCode": "ORD",
+                "dateTime": "2020-11-21T11:35"
+            },
+            "isArrivalOnNextDay": false,
+            "isDepartureAirportDifferent": false,
+            "numberOfStops": 0,
+            "optionalData": {
+                "aircraftName": "Boeing 777-200/200ER",
+                "codeShareText": "AMERICAN AIRLINES",
+                "stops": []
+            }
+        },
+        {
+            "refId": 10009,
+            "flightNumber": "4370",
+            "durationMins": 261,
+            "marketingCarrier": "BA",
+            "operatingCarrier": "AA",
+            "departure": {
+                "airportCode": "ORD",
+                "dateTime": "2020-11-21T15:00"
+            },
+            "arrival": {
+                "airportCode": "LAX",
+                "dateTime": "2020-11-21T17:21"
+            },
+            "isArrivalOnNextDay": false,
+            "isDepartureAirportDifferent": false,
+            "numberOfStops": 0,
+            "optionalData": {
+                "aircraftName": "Boeing 737-800 Passenger",
+                "codeShareText": "AMERICAN AIRLINES",
+                "stops": []
+            }
+        },
+        {
+            "refId": 10010,
+            "flightNumber": "134",
+            "durationMins": 610,
+            "marketingCarrier": "BA",
+            "operatingCarrier": "BA",
+            "departure": {
+                "airportCode": "BOM",
+                "dateTime": "2020-11-21T09:00"
+            },
+            "arrival": {
+                "airportCode": "LHR",
+                "dateTime": "2020-11-21T13:40"
+            },
+            "isArrivalOnNextDay": false,
+            "isDepartureAirportDifferent": false,
+            "numberOfStops": 0,
+            "optionalData": {
+                "aircraftName": "Boeing 787-8 Dreamliner",
+                "stops": []
+            }
+        },
+        {
+            "refId": 10011,
+            "flightNumber": "1546",
+            "durationMins": 545,
+            "marketingCarrier": "BA",
+            "operatingCarrier": "AA",
+            "departure": {
+                "airportCode": "LHR",
+                "dateTime": "2020-11-21T17:15"
+            },
+            "arrival": {
+                "airportCode": "ORD",
+                "dateTime": "2020-11-21T20:20"
+            },
+            "isArrivalOnNextDay": false,
+            "isDepartureAirportDifferent": false,
+            "numberOfStops": 0,
+            "optionalData": {
+                "aircraftName": "Boeing 777-200/200ER",
+                "codeShareText": "AMERICAN AIRLINES",
+                "stops": []
+            }
+        },
+        {
+            "refId": 10012,
+            "flightNumber": "5289",
+            "durationMins": 261,
+            "marketingCarrier": "BA",
+            "operatingCarrier": "AA",
+            "departure": {
+                "airportCode": "ORD",
+                "dateTime": "2020-11-21T22:15"
+            },
+            "arrival": {
+                "airportCode": "LAX",
+                "dateTime": "2020-11-22T00:36"
+            },
+            "isArrivalOnNextDay": false,
+            "isDepartureAirportDifferent": false,
+            "numberOfStops": 0,
+            "optionalData": {
+                "aircraftName": "Airbus A321",
+                "codeShareText": "AMERICAN AIRLINES",
+                "stops": []
+            }
+        },
+        {
+            "refId": 10015,
+            "flightNumber": "1526",
+            "durationMins": 660,
+            "marketingCarrier": "BA",
+            "operatingCarrier": "AA",
+            "departure": {
+                "airportCode": "LHR",
+                "dateTime": "2020-11-21T09:30"
+            },
+            "arrival": {
+                "airportCode": "PHX",
+                "dateTime": "2020-11-21T13:30"
+            },
+            "isArrivalOnNextDay": false,
+            "isDepartureAirportDifferent": false,
+            "numberOfStops": 0,
+            "optionalData": {
+                "aircraftName": "Boeing 777-200/200ER",
+                "codeShareText": "AMERICAN AIRLINES",
+                "stops": []
+            }
+        },
+        {
+            "refId": 10016,
+            "flightNumber": "5244",
+            "durationMins": 78,
+            "marketingCarrier": "BA",
+            "operatingCarrier": "AA",
+            "departure": {
+                "airportCode": "PHX",
+                "dateTime": "2020-11-21T15:00"
+            },
+            "arrival": {
+                "airportCode": "LAX",
+                "dateTime": "2020-11-21T15:18"
+            },
+            "isArrivalOnNextDay": false,
+            "isDepartureAirportDifferent": false,
+            "numberOfStops": 0,
+            "optionalData": {
+                "aircraftName": "Airbus A321",
+                "codeShareText": "AMERICAN AIRLINES",
+                "stops": []
+            }
+        },
+        {
+            "refId": 10013,
+            "flightNumber": "193",
+            "durationMins": 625,
+            "marketingCarrier": "BA",
+            "operatingCarrier": "BA",
+            "departure": {
+                "airportCode": "LHR",
+                "dateTime": "2020-11-21T15:45"
+            },
+            "arrival": {
+                "airportCode": "DFW",
+                "dateTime": "2020-11-21T20:10"
+            },
+            "isArrivalOnNextDay": false,
+            "isDepartureAirportDifferent": false,
+            "numberOfStops": 0,
+            "optionalData": {
+                "aircraftName": "Boeing 787-9 Dreamliner",
+                "stops": []
+            }
+        },
+        {
+            "refId": 10014,
+            "flightNumber": "4407",
+            "durationMins": 197,
+            "marketingCarrier": "BA",
+            "operatingCarrier": "AA",
+            "departure": {
+                "airportCode": "DFW",
+                "dateTime": "2020-11-21T22:15"
+            },
+            "arrival": {
+                "airportCode": "LAX",
+                "dateTime": "2020-11-21T23:32"
+            },
+            "isArrivalOnNextDay": false,
+            "isDepartureAirportDifferent": false,
+            "numberOfStops": 0,
+            "optionalData": {
+                "aircraftName": "Airbus A321",
+                "codeShareText": "AMERICAN AIRLINES",
+                "stops": []
+            }
+        },
+        {
+            "refId": 10017,
+            "flightNumber": "557",
+            "durationMins": 245,
+            "marketingCarrier": "QR",
+            "operatingCarrier": "QR",
+            "departure": {
+                "airportCode": "BOM",
+                "dateTime": "2020-11-21T04:00"
+            },
+            "arrival": {
+                "airportCode": "DOH",
+                "dateTime": "2020-11-21T05:35"
+            },
+            "isArrivalOnNextDay": false,
+            "isDepartureAirportDifferent": false,
+            "numberOfStops": 0,
+            "optionalData": {
+                "aircraftName": "Boeing 777-300ER",
+                "stops": []
+            }
+        },
+        {
+            "refId": 10018,
+            "flightNumber": "739",
+            "durationMins": 985,
+            "marketingCarrier": "QR",
+            "operatingCarrier": "QR",
+            "departure": {
+                "airportCode": "DOH",
+                "dateTime": "2020-11-21T07:45"
+            },
+            "arrival": {
+                "airportCode": "LAX",
+                "dateTime": "2020-11-21T13:10"
+            },
+            "isArrivalOnNextDay": false,
+            "isDepartureAirportDifferent": false,
+            "numberOfStops": 0,
+            "optionalData": {
+                "aircraftName": "Airbus A350-1000",
+                "stops": []
+            }
+        },
+        {
+            "refId": 10019,
+            "flightNumber": "65",
+            "durationMins": 250,
+            "marketingCarrier": "GF",
+            "operatingCarrier": "GF",
+            "departure": {
+                "airportCode": "BOM",
+                "dateTime": "2020-11-21T21:35"
+            },
+            "arrival": {
+                "airportCode": "BAH",
+                "dateTime": "2020-11-21T23:15"
+            },
+            "isArrivalOnNextDay": false,
+            "isDepartureAirportDifferent": false,
+            "numberOfStops": 0,
+            "optionalData": {
+                "aircraftName": "Airbus A321",
+                "stops": []
+            }
+        },
+        {
+            "refId": 10020,
+            "flightNumber": "7",
+            "durationMins": 445,
+            "marketingCarrier": "GF",
+            "operatingCarrier": "GF",
+            "departure": {
+                "airportCode": "BAH",
+                "dateTime": "2020-11-22T02:10"
+            },
+            "arrival": {
+                "airportCode": "LHR",
+                "dateTime": "2020-11-22T06:35"
+            },
+            "isArrivalOnNextDay": false,
+            "isDepartureAirportDifferent": false,
+            "numberOfStops": 0,
+            "optionalData": {
+                "aircraftName": "Boeing 787-9 Dreamliner",
+                "stops": []
+            }
+        },
+        {
+            "refId": 10021,
+            "flightNumber": "6507",
+            "durationMins": 695,
+            "marketingCarrier": "GF",
+            "operatingCarrier": "AA",
+            "departure": {
+                "airportCode": "LHR",
+                "dateTime": "2020-11-22T11:30"
+            },
+            "arrival": {
+                "airportCode": "LAX",
+                "dateTime": "2020-11-22T15:05"
+            },
+            "isArrivalOnNextDay": false,
+            "isDepartureAirportDifferent": false,
+            "numberOfStops": 0,
+            "optionalData": {
+                "aircraftName": "Boeing 777-300ER",
+                "codeShareText": "AMERICAN AIRLINES",
+                "stops": []
+            }
+        }
+    ]
+}
