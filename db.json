@@ -10,31 +10,6 @@
             "code": "VS",
             "name": "Virgin Atlantic",
             "logoUrl": "https://qa-images.orxenterprise.com/images/Airlines/30x30/VS.jpg"
-        },
-        {
-            "code": "DL",
-            "name": "Delta Air Lines",
-            "logoUrl": "https://qa-images.orxenterprise.com/images/Airlines/30x30/DL.jpg"
-        },
-        {
-            "code": "BA",
-            "name": "British Airways",
-            "logoUrl": "https://qa-images.orxenterprise.com/images/Airlines/30x30/BA.jpg"
-        },
-        {
-            "code": "AA",
-            "name": "American Airlines",
-            "logoUrl": "https://qa-images.orxenterprise.com/images/Airlines/30x30/AA.jpg"
-        },
-        {
-            "code": "QR",
-            "name": "Qatar Airways",
-            "logoUrl": "https://qa-images.orxenterprise.com/images/Airlines/30x30/QR.jpg"
-        },
-        {
-            "code": "GF",
-            "name": "Gulf Air",
-            "logoUrl": "https://qa-images.orxenterprise.com/images/Airlines/30x30/GF.jpg"
         }
     ],
     "airports": [
@@ -56,86 +31,6 @@
                 "name": "Mumbai",
                 "stateCode": "NULL",
                 "countryCode": "IN"
-            }
-        },
-        {
-            "code": "LAX",
-            "name": "Los Angeles International  Airport",
-            "city": {
-                "code": "LAX",
-                "name": "Los Angeles",
-                "stateCode": "CA",
-                "countryCode": "US"
-            }
-        },
-        {
-            "code": "LHR",
-            "name": "London Heathrow  Airport",
-            "city": {
-                "code": "LON",
-                "name": "London",
-                "stateCode": "NULL",
-                "countryCode": "GB"
-            }
-        },
-        {
-            "code": "JFK",
-            "name": "New York J F Kennedy International  Airport",
-            "city": {
-                "code": "NYC",
-                "name": "New York",
-                "stateCode": "NY",
-                "countryCode": "US"
-            }
-        },
-        {
-            "code": "ORD",
-            "name": "Chicago O'Hare International  Airport",
-            "city": {
-                "code": "CHI",
-                "name": "Chicago",
-                "stateCode": "IL",
-                "countryCode": "US"
-            }
-        },
-        {
-            "code": "PHX",
-            "name": "Sky Harbor International  Airport",
-            "city": {
-                "code": "PHX",
-                "name": "Phoenix",
-                "stateCode": "AZ",
-                "countryCode": "US"
-            }
-        },
-        {
-            "code": "DFW",
-            "name": "Dallas/Fort Worth International  Airport",
-            "city": {
-                "code": "DFW",
-                "name": "Dallas",
-                "stateCode": "TX",
-                "countryCode": "US"
-            }
-        },
-        {
-            "code": "DOH",
-            "name": "Hamad International Airport",
-            "city": {
-                "code": "DOH",
-                "name": "Doha",
-                "stateCode": "NULL",
-                "countryCode": "QA"
-            }
-        },
-        {
-            "code": "BAH",
-            "name": "Bahrain International Airport",
-            "city": {
-                "code": "BAH",
-                "name": "Bahrain",
-                "stateCode": "NULL",
-                "countryCode": "BH"
             }
         }
     ],
